@@ -83,7 +83,7 @@ The Stack:
 1. React Scaffolding
 1. React-router
 1. Postgres
-1. NodeJS Express web server  
+1. NodeJS Express web server
 
 Security:
 
@@ -100,12 +100,12 @@ Browsers support
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png" alt="Samsung" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Samsung | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Opera | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png" alt="Vivaldi" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Vivaldi | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Electron |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IE9, IE11, Edge                                                                                                                                                                                                 | last 2 versions                                                                                                                                                                                                   | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                                               | last 2 versions                                                                                                                                                                                                                     | last 2 versions                                                                                                                                                                                           | last 2 versions                                                                                                                                                                                                   | last 2 versions                                                                                                                                                                                                       |
+| IE9, IE11, Edge
 
 
 
 
-# Quick Start 
+# Quick Start
 
 ## Installing
 Install backend and Frontend by running either of the following:
@@ -117,12 +117,12 @@ https://github.com/amariwan/reactJs-Mysql-Auth.git
 ```
 Run in terminal this command:
 ```bash
-cd backend && npm i && cd ../Frontend/ && npm i 
+cd backend && npm i && cd ../Frontend/ && npm i
 ```
 ## Creating an SSL Certificate
 
 1. First, generate a key file used for self-signed certificate generation with the command below. The command will create a private key as a file called key.pem.
-  
+
 ```bash
 openssl genrsa -out key.pem
 ```
@@ -149,7 +149,7 @@ info about .env variable
 ```env
 host                    =   ""  // Host name for database connection. //! localhost
 user                    =   ""  // Database user. //! root
-password                =   ""  // Password for the above database user. 
+password                =   ""  // Password for the above database user.
 port                    =   ""  // Port number for database connection. //! 3306
 database                =   ""  // Database name. //! auth_db
 SERVERPORT              =   ""  // Server port //! 4000
@@ -161,7 +161,7 @@ OriginFrontendServer    =   ""  //frontend server //! localhost:8080
 ```
 Then run this command to start your local server
 ```bash
-npm start 
+npm start
 ```
 or
 ```bash
@@ -477,8 +477,8 @@ In my projects I essentially find useful two ways to encrypt strings: hash funct
 
 Hash functions are essentials for store encrypted password, and the best library for nodejs is Bcrypt. You can find more information in this article: why use Bcrypt?.
 
-Install: 
-```bash 
+Install:
+```bash
 npm install bcrypt
 ```
 To hash a password:
@@ -505,7 +505,7 @@ In other scenarios I needed to crypt strings in order to hide texts to users but
 
 Install:
 
-```bash 
+```bash
 npm install crypto
 ```
 To encrypt and decrypt a string:
@@ -548,7 +548,7 @@ A table that shows the error codes and their respective messages.
 
 #  Libraries used 🚀
 
-###  Frontend: 
+###  Frontend:
 * [react](https://reactjs.org/)
 * [react-dom](https://www.npmjs.com/package/react-dom)
 * [react-hot-toast](https://www.npmjs.com/package/react-hot-toast)
@@ -556,7 +556,7 @@ A table that shows the error codes and their respective messages.
 * [crypto-js](https://www.npmjs.com/package/crypto-js)
 
 
-###  Backend: 
+###  Backend:
 * [express](https://www.npmjs.com/package/express)
 * [express-session](https://www.npmjs.com/package/express-session)
 * [cors](https://www.npmjs.com/package/cors)
