@@ -6,10 +6,7 @@ import Login from '../Pages/Login';
 import Dashboard from '../Pages/Dashboard';
 import Register from '../Pages/Register';
 import PageNotFound from '../Pages/PageNotFound';
-import { createRequire } from 'module';
 
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
 
 const Rotas = () => {
 	const [ articles, setArticles ] = useState(null);
